@@ -1,105 +1,20 @@
 <!DOCTYPE html>
 <html lang="ar">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>طلب خدمة | BICARM بيكارم</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-</head>
-<body>
-    <nav>
-        <div class="nav-links">
-            <a href="index.html">الرئيسية</a>
-            <a href="services.html">الخدمات</a>
-            <a href="pricing.html">الأسعار</a>
-            <button id="theme-toggle" class="theme-toggle-btn" title="تبديل الوضع الليلي">
-                <i class="fas fa-moon"></i>
-                <i class="fas fa-sun"></i>
-            </button>
-        </div>
-        <a href="index.html" class="logo"><img src="assets/images/logo.png" alt="BICARM بيكارم"></a>
-    </nav>
 
-    <section class="hero" style="min-height: auto; padding: 120px 5% 40px;">
-        <h1>نموذج طلب الخدمة</h1>
-        <p>املأ البيانات أدناه وسنقوم بخدمتك فوراً عبر الواتساب.</p>
-    </section>
-
-    <section id="request">
-        <div class="form-container">
-            <form id="request-form">
-                <div class="form-group">
-                    <label for="name">الاسم الثلاثي</label>
-                    <input type="text" id="name" placeholder="أدخل اسمك الكامل" required>
-                </div>
-                <div class="form-group">
-                    <label for="phone">رقم الجوال</label>
-                    <input type="tel" id="phone" placeholder="05xxxxxxxx" required>
-                </div>
-                <div class="form-group">
-                    <label for="service-input">الخدمة المطلوبة</label>
-                    <input type="text" id="service-input" placeholder="اسم الخدمة" required>
-                </div>
-                <div class="form-group">
-                    <label for="description">تفاصيل إضافية</label>
-                    <textarea id="description" rows="4" placeholder="أي معلومات تهمنا في تنفيذ طلبك"></textarea>
-                </div>
-
-                <div class="upsell">
-                    <label style="display: flex; align-items: center; cursor: pointer; gap: 10px; font-weight: 700;">
-                        <input type="checkbox" id="upsell-check" style="width: 25px; height: 25px;">
-                        <span>أرغب بخدمة "متابعة الطلب" حتى النهاية (+20 ريال إضافية)</span>
-                    </label>
-                </div>
-
-                <div class="payment-info" style="background: var(--light-bg); border: 1px solid rgba(0,0,0,0.05); padding: 20px; border-radius: 12px; margin-bottom: 25px;">
-                    <h4 style="color: var(--primary-blue); margin-bottom: 10px;"><i class="fas fa-wallet"></i> تعليمات الدفع</h4>
-                    <p style="font-size: 0.9rem; color: var(--text-dark);">يمكنك التحويل عبر:</p>
-                    <ul style="font-size: 0.9rem; color: var(--text-dark); list-style: none; margin-top: 5px;">
-                        <li>• STC Pay: <strong>0510072172</strong></li>
-                        <li>• بنك الراجحي: <strong>1234567890123456</strong></li>
-                    </ul>
-                    <p style="font-size: 0.85rem; font-weight: 700; margin-top: 10px; color: var(--primary-green);">* سيتم تنفيذ الطلب فور تأكيد الدفع.</p>
-                </div>
-
-                <button type="submit" class="btn btn-green btn-large" style="width: 100%;">
-                    <i class="fab fa-whatsapp"></i> إرسال الطلب عبر الواتساب
-                </button>
-            </form>
-
-            <div style="margin-top: 30px; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 15px;">
-                <p class="trust-badge" style="justify-content: center;"><i class="fas fa-shield-alt"></i> التزام تام بالخصوصية والأنظمة المعمول بها في المملكة.</p>
-                <div style="display: flex; gap: 15px; flex-wrap: wrap; justify-content: center;">
-                    <a href="https://raed.com.sa/badge?licenseNumber=FL-530031139" target="_blank" class="raed-badge">
-                        <i class="fas fa-certificate"></i>
-                        <span>ممارس حر مرخص: FL-530031139</span>
-                    </a>
-                    <a href="https://maroof.sa/businesses/details/299162" target="_blank" class="maroof-badge">
-                        <i class="fas fa-store"></i>
-                        <span>موثق في معروف</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-<!DOCTYPE html>
-<html lang="ar">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>طلب خدمة | BICARM بيكارم</title>
-    
-    <!-- SEO & Social Media Metadata -->
-    <meta name="description" content="اطلب خدمتك الرقمية الآن عبر منصة بيكارم.">
+    <!-- SEO & Metadata -->
+    <meta name="description" content="اطلب خدمتك الرقمية والحكومية الآن عبر منصة بيكارم للأعمال الذكية.">
     <meta property="og:title" content="طلب خدمة | BICARM بيكارم">
     <meta property="og:image" content="assets/images/logo.png">
-    
+
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
+
 <body>
     <nav>
         <div class="nav-links">
@@ -110,14 +25,15 @@
                 <i class="fas fa-moon"></i>
                 <i class="fas fa-sun"></i>
             </button>
+            <a href="request.html" class="btn btn-primary" style="padding: 10px 20px;">اطلب الآن</a>
         </div>
         <a href="index.html" class="logo"><img src="assets/images/logo.png" alt="BICARM بيكارم"></a>
     </nav>
 
-    <section class="hero" style="min-height: auto; padding: 120px 5% 40px;">
+    <header class="hero" style="min-height: auto; padding: 120px 5% 40px;">
         <h1>نموذج طلب الخدمة</h1>
         <p>املأ البيانات أدناه وسنقوم بخدمتك فوراً عبر الواتساب.</p>
-    </section>
+    </header>
 
     <section id="request">
         <div class="form-container">
@@ -146,14 +62,15 @@
                     </label>
                 </div>
 
-                <div class="payment-info" style="background: var(--light-bg); border: 1px solid rgba(0,0,0,0.05); padding: 20px; border-radius: 12px; margin-bottom: 25px;">
+                <div class="payment-info"
+                    style="background: var(--card-bg); border: 1px solid rgba(255,255,255,0.05); padding: 20px; border-radius: 12px; margin-bottom: 25px;">
                     <h4 style="color: var(--primary-blue); margin-bottom: 10px;"><i class="fas fa-wallet"></i> تعليمات الدفع</h4>
                     <p style="font-size: 0.9rem; color: var(--text-dark);">يمكنك التحويل عبر:</p>
-                    <ul style="font-size: 0.9rem; color: var(--text-dark); list-style: none; margin-top: 5px;">
-                        <li>• STC Pay: <strong>0510072172</strong></li>
-                        <li>• بنك الراجحي: <strong>1234567890123456</strong></li>
+                    <ul style="font-size: 0.9rem; color: var(--text-dark); list-style: none; margin-top: 10px;">
+                        <li style="margin-bottom: 5px;">• STC Pay: <strong>0510072172</strong></li>
+                        <li>• مصرف الراجحي: <strong style="color: var(--primary-green); font-family: monospace;">SA6680000616608016006898</strong></li>
                     </ul>
-                    <p style="font-size: 0.85rem; font-weight: 700; margin-top: 10px; color: var(--primary-green);">* سيتم تنفيذ الطلب فور تأكيد الدفع.</p>
+                    <p style="font-size: 0.85rem; font-weight: 700; margin-top: 15px; color: var(--primary-green);">* سيتم تنفيذ الطلب فور تأكيد الدفع.</p>
                 </div>
 
                 <button type="submit" class="btn btn-green btn-large" style="width: 100%;">
@@ -161,7 +78,8 @@
                 </button>
             </form>
 
-            <div style="margin-top: 30px; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 15px;">
+            <div
+                style="margin-top: 30px; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 15px;">
                 <p class="trust-badge" style="justify-content: center;"><i class="fas fa-shield-alt"></i> التزام تام بالخصوصية والأنظمة المعمول بها في المملكة.</p>
                 <div style="display: flex; gap: 15px; flex-wrap: wrap; justify-content: center;">
                     <a href="https://raed.com.sa/badge?licenseNumber=FL-530031139" target="_blank" class="raed-badge">
@@ -180,13 +98,20 @@
     <footer>
         <div class="footer-content">
             <p>جميع الحقوق محفوظة بيكارم للأعمال الذكية © 2026</p>
-            <p style="font-size: 0.85rem; color: #94a3b8; margin-top: 5px;">ممارس حر مرخص: FL-530031139</p>
+            <p style="font-size: 0.85rem; color: #94a3b8; margin-top: 5px;">ممارس حر مرخص برقم: FL-530031139</p>
+            <div class="footer-links">
+                <a href="index.html">الرئيسية</a>
+                <a href="services.html">الخدمات</a>
+                <a href="pricing.html">الأسعار</a>
+            </div>
         </div>
     </footer>
 
     <script src="assets/js/main.js"></script>
-    <a href="https://api.whatsapp.com/send?phone=966510072172&text=السلام%20عليكم%20بيكارم،%20أريد%20الاستفسار%20عن%20خدمة" class="whatsapp-float" target="_blank" title="تواصل معنا عبر الواتساب">
+    <a href="https://api.whatsapp.com/send?phone=966510072172&text=السلام%20عليكم%20بيكارم،%20أريد%20الاستفسار%20عن%20خدمة"
+        class="whatsapp-float" target="_blank" title="تواصل معنا عبر الواتساب">
         <i class="fab fa-whatsapp"></i>
     </a>
 </body>
+
 </html>
