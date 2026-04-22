@@ -126,7 +126,7 @@ nav {
 /* --- Hero Section --- */
 .hero {
     padding: 180px 5% 120px;
-    background: #000; /* Fallback */
+    background: #000 url('../images/hero-bg.png') no-repeat center center / cover; /* Premium Fallback */
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -528,7 +528,14 @@ footer {
     .hero {
         min-height: 70vh;
         padding: 120px 5% 60px;
-        background: #000;
+        background: #000 url('../images/hero-bg.png') no-repeat center center / cover;
+    }
+
+    /* Ensure video covers even in narrow vertical orientation */
+    .video-background iframe {
+        width: 300%;
+        height: 100%;
+        left: -100%;
     }
 
     .btn-large {
